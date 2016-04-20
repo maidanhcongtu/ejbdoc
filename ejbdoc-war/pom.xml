@@ -15,7 +15,12 @@
 	<name>ejbdoc-war Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-	
+		
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>ejbdoc-ejb</artifactId>
@@ -23,10 +28,6 @@
 			<type>ejb</type>
 		</dependency>
 		
-		<dependency>
-			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-		</dependency>
 	</dependencies>
 
 	<build>
